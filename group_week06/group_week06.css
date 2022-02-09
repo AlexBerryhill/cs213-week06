@@ -1,4 +1,38 @@
 /*Section4*/
-#grid-second{
+#grid_second {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+#grid_second div{
+    min-height: 100px;
+}
+
+#grid_second .box1{
+    grid-column: 1/4;
+}
+
+.box9{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 500px) {
+    #grid_second{
+        grid-template-columns: 1fr;
+    }
+    #grid_second .box1{
+        grid-column: 1;
+    }
+    .box9{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #grid_second{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #grid_second .box1{
+        grid-column: 1/3;
+    }
 }
