@@ -46,9 +46,6 @@
 /**************************************/
 /*Section 1 Derrick Eberlein*/
 #flex_first {
-	width: 80vw;
-    height: 20vh;
-    min-height: 15rem;
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -57,9 +54,7 @@
 }
 		
 .center_list {
-	flex-direction: column;
-    width: auto;
-    list-style-position: inside;
+    flex-direction: column;
 }
 /*Section 1 End*/
 /**************************************/
