@@ -43,3 +43,23 @@
     }
 }
 /*Section 4 End*/
+/**************************************/
+/*Section 1 Derrick Eberlein*/
+#flex_first {
+	width: 80vw;
+    height: 20vh;
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin: auto;
+    align-items: center;;
+}
+		
+.center_list {
+	flex-direction: column;
+    width: auto;
+    list-style-position: inside;
+}
+/*Section 1 End*/
+/**************************************/
