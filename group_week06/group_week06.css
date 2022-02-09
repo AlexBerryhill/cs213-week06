@@ -58,3 +58,26 @@
 }
 /*Section 1 End*/
 /**************************************/
+
+/**************************************/
+/*Section 3 Caroline Packer*/
+#grid_first {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #grid_first {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #grid_first {
+        grid-template-columns: auto;
+    }
+}
+
+/*Section 3 End*/
+/**************************************/
