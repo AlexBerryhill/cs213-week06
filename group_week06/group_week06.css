@@ -76,6 +76,7 @@
     flex: 1 1 300px;
     max-width: 300px;
     color: blanchedalmond;
+    
 }
 input,textarea{
     display: flex;
@@ -85,8 +86,13 @@ input,textarea{
 button{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width:100%;
 }
+
+input[type="radio"]{
+    align-items: left;
+}
+
 /**************************************/
 /*Section 3 Caroline Packer*/
 #grid_first {
