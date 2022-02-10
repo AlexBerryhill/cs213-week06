@@ -58,6 +58,24 @@
 }
 /*Section 1 End*/
 /**************************************/
+/*Section 2 Dae Lee*/
+#flex_second {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+#flex_second_wrapper {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.form_row{
+    flex-direction: column;
+    display: flex;
+
+}
+
 
 /**************************************/
 /*Section 3 Caroline Packer*/
