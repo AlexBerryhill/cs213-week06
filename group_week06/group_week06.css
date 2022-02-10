@@ -63,20 +63,29 @@
     display: flex;
     flex-direction: column;
     width:100%;
+    columns: 100;
 }
 #flex_second_wrapper {
-    
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     
 }
-.form_row{
-    flex-direction: column;
-    display: flex;
-
+.form_row {
+    max-width: 300%;
+    flex: 1 1 300px;
+    max-width: 300px;
+    color: blanchedalmond;
 }
-
-
+input,textarea{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 /**************************************/
 /*Section 3 Caroline Packer*/
 #grid_first {
