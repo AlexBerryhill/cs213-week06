@@ -115,3 +115,26 @@ input[type="radio"]{
 
 /*Section 3 End*/
 /**************************************/
+
+
+/**************************************/
+/*Section 2 Dylan*/
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+
+#hair{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#cookie{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/*Section 2 End*/
+/**************************************/
